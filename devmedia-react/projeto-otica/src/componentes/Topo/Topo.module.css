@@ -1,0 +1,51 @@
+.topo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    color: #000000;
+}
+.image{
+    width: auto;
+    height: 50px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+}
+.links a{
+    text-decoration: none;
+    color: #000000;
+}
+
+@media (max-width: 375px) {
+    .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .containerimage{
+        width: 300px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid gray;
+    }
+    .links{
+        gap: 25px;
+    }
+    .links a{
+        font-size: 18px;
+    }
+}

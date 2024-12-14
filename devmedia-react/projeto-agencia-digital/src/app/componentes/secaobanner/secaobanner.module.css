@@ -1,0 +1,50 @@
+.main{
+    width: 100%;
+    height: 70vh;  
+    display: flex;
+    align-items: center;
+}
+.imgbanner{
+    max-width: 50%;
+    width: 100%;
+    height: 100%;
+}
+.img{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+.textobanner{
+    color: #022144;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fafbfc;
+    padding-left: 15px;
+}
+.textobanner p{
+    font-size: 22px;
+}
+.textobanner h2{
+    font-size: 55px;
+}
+.textobanner span{
+    font-weight: bolder;
+    font-size: 45px;
+}
+.dark_mode .imgbanner{
+    background-color: #252525;
+}
+@media (max-width: 1024px){
+    .imgbanner{
+        display: none;
+    }
+    .textobanner{
+        width: 100%;
+    }
+}
+

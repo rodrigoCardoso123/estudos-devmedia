@@ -1,0 +1,39 @@
+.banner{
+    width: 100%;
+    height: 10vh;
+    background: url(../../../public/banner-sobre.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto_banner{
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
+    text-shadow: #474747 3px 5px 2px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_texto{
+    max-width: 1024px;
+    width: 100%;
+    padding: 100px 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.img{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    
+}

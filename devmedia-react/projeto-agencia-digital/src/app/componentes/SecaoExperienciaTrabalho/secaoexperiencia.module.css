@@ -1,0 +1,62 @@
+.main{
+    width: 100%;
+    min-height: 60vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 30px;
+    gap: 45px;
+    background-color: #f6f8fc;
+}
+.main h3{
+    color: #32333c;
+    font-size: 38px;
+    position: relative;
+}
+.main h3::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    bottom: -8px;
+    right: 180px;
+    background:#ffdf00;
+}
+.container_card{
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.p{
+    color: #8a8fa3;
+    font-size: 19px;
+    text-align: center;
+    max-width: 750px;
+}
+.dark_mode .main{
+    background-color: #393838;
+}
+.dark_mode .main h3{
+    color:#CCCCCC;
+}
+.dark_mode .main p{
+    color: #CCCCCC;
+}
+@media (max-width: 770px) and (min-width: 380px){
+    .main h3, .main p{
+        text-align: center;
+    }
+}
+@media (max-width: 379px){
+    .main h3, .main p{
+        text-align: center;
+    }
+    .main h3::before{
+        right: 100px;
+    }
+}

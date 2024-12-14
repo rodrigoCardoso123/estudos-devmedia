@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.container_topo{
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 120px;
+    width: auto;
+}
+.botao{
+    cursor: pointer;
+    border: 2px solid #B2987D;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.topo{
+    width: 100%;
+    max-width: 1024px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgbanner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.secao_texto{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_texto{
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    text-align: center;
+}
+.container_texto h1{
+    font-size: 40px;
+}
+.container_texto p{
+    font-size: 18px;
+} 
+.container_texto .assinatura{
+    font-weight: 500;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    color: #B2987D;
+}
+
+.dark_mode .img{
+    filter: invert(1) brightness(2);
+    color: #fff;
+}
+.dark_mode .container_topo{
+    background-color: #252323;
+}
+.dark_mode .botao{
+    color: #fff;
+    background-color: #252323;
+}
+.dark_mode .secao_texto{
+    background-color: #252323;
+}
+.dark_mode .container_texto{
+    color: #fff;
+}

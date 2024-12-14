@@ -1,0 +1,33 @@
+.card_depoimento {
+    max-width: 300px;
+    padding: 15px;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border: 1px solid gray;
+    gap: 13px;
+  }
+.card_p{
+  font-size: 15px;
+  text-align: left;
+}
+.card_span{
+  font-size: 23px;
+  font-weight: bolder;
+  color: #32333c;
+}
+.card_depoimento:hover{
+  background-color: #feb633;
+}
+.dark_mode .card_span{
+  color: #fff;
+}
+
+@media (max-width: 770px) and (min-width: 380px){
+    .card_depoimento{
+      max-width: 100%;
+    }
+}

@@ -1,0 +1,35 @@
+.topo{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #F9DB79;
+    padding: 0px 18px;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    color: #000000;
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 15px;
+}
+.links a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}

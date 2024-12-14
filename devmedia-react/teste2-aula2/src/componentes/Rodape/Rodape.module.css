@@ -1,0 +1,13 @@
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-height: 60px;
+    background-color: brown;
+    padding: 8px;
+}
+.h1{
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: 'fredoka';
+}
+div{
+    margin: 10px auto;
+    width: 800px;   
+}
+p{
+    font-size: 18px;
+}
+h1,h2 h3{
+    font-weight: bold;
+}
+.secao-topo{
+    padding-bottom: 0;
+    font-size: 12px;
+}
+.texto-imagen-topo{
+    padding-top: 30px;
+    text-align: right;
+}
+.texto-imagen-topo h1{
+    margin-bottom: 0px;
+}
+.texto-imagen-topo h2{
+    margin-top: 0;
+}
+.imagen-fundo-topo{
+    width: 100%;
+    min-height: 500px;
+    background-image: url(img/capa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.imagen-fundo-menor{
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.texto-fundo-menor{
+    width: 200px;
+    margin: 0 auto;
+}
+.texto-fundo-menor h3{
+    padding: 5px;
+    background-color: white;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 34px;
+}
+.Sobre{
+    padding: 40px 20px;
+}
+.Sobre span{
+    border-left: 1px solid black;
+    padding-left: 10px;
+    font-size: 20px;
+}

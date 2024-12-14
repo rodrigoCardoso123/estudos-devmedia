@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+}
+header{
+    background-color: #00CAD1;
+}
+header div{
+    width: 100%;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 15px;
+    gap: 3;
+}
+.topo-secao{
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+.links-topo{
+    margin-left: 15px;
+    padding: 5px;
+}
+.links-topo a{
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.links-topo a:hover{
+    color: #0098AA;
+}
+.especialidades-conteudo{
+    max-width: 1024px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.especialidades{
+    max-width: 1024px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.especialidades a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    border-bottom: #00CAD1 2px solid;
+}
+.especialidades a:hover{
+    color: #0098AA;
+}
+h1{
+    color: #989493;
+    margin: 25px auto;
+}
+.topo-descricao{
+    max-width: 1024px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.topo-descricao h3{
+    font-size: 25px;
+    margin: 20px auto;
+    color: #989493;
+}
+.topo-descricao p{
+    max-width: 700px;
+    text-align: center;
+    color: #989493;
+}
+.descricao{
+    max-width: 1024px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.descricao img{
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+    height: 267px;
+    border-collapse: collapse;
+    margin: 25px auto;
+}
+thead{
+    background-color: #00CAD1;
+    color: #fff;
+    text-align: left;
+}
+tbody tr:nth-child(even){
+    background-color: #f1f1f1c2;
+}
+tbody tr:nth-child(odd){
+    background-color: #CDCDCD;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #0C6E71;
+    margin-top: 25px;
+}
+.footer-texto{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.footer-texto p{
+    margin-bottom: 20px;
+}
+.footer-texto img{
+    margin-bottom: 10px;
+}
+@media (min-width: 320px) and (max-width: 425px){
+    header div{
+        width: 100%;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .topo-secao{
+        max-width: 425px;
+        margin: 0 auto;
+    }
+    .links-topo a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 19px;
+        margin: 5px 10px;
+    }
+    nav{
+        border-top: 1px solid black;
+    }
+    .especialidades{
+        max-width: 1024px;
+        margin: 15px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3;
+    }
+    .especialidades a{
+        margin: 8px 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 19px;
+        border-bottom: #00CAD1 2px solid;
+    }
+    table{
+        width: 95%;
+    }
+    .descricao img{
+        display: none;
+    }
+    .topo-descricao p{
+        max-width: 400px;
+        margin: 10px 15px;
+    }
+    .footer-texto{
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px){
+    .topo-secao{
+        max-width: 1024px;
+        max-height: 300px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 1;
+    }
+    .topo-secao img{
+        height: 70px;
+    }
+    .especialidades{
+        max-width: 1024px;
+        margin: 15px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3;
+    }
+    .descricao img{
+        display: none;
+    }
+    .topo-descricao p{
+        max-width: 700px;
+        text-align: center;
+        color: #989493;
+        margin: 0 15px;
+    }
+    table{
+        width: 95%;
+    }
+    td{
+        padding: 5;
+    }
+    .footer-texto{
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 15px;
+    }
+}

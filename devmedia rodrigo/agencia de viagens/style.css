@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway',sans-serif ;
+}
+body{
+    background-color: #EAEAEA;
+}
+header{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+}
+header div{
+    max-width: 1024px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+header div p{
+    font-size: 20px;
+    margin-left: 5px;
+    color: #5d15d1;
+}
+#formulario{
+    width: 100%;
+    height: auto;
+    background: url(imagens/bahia.jpg);
+    background-size: cover;
+}
+.area-formulario{
+    max-width: 1024px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.topo-formulario{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5d15d1;
+}
+.topo-formulario img{
+    image-orientation: -45deg;
+}
+.topo-formulario h1{
+    font-size: 17px;
+    color: #fff;
+    margin-left: 5px;
+}
+.texo-formulario{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+}
+.texo-formulario h2{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 16px;
+}
+input{
+    width: 100%;
+    height: 32px;
+    margin: 10px 0px;
+    padding: 5px;
+}
+select{
+    width: 100%;
+    height: 32px;
+    margin: 10px 0px;
+    padding: 5px;
+}
+.formulario-juntos{
+    display: flex;
+    width: 100%;
+}
+.formulario-juntos-texto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 10px;
+}
+.formulario-radio{
+    display: flex;
+    width: 100%;
+}
+.formulario-radio input{
+    width: 15px;
+}
+.formulario-radio label{
+ margin: 0 5px;
+}
+.formulario-radio-input{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+button{
+    margin: 15px 0;
+    color: #fff;
+    background-color: #5d15d1;
+    font-size: 16px;
+    height: 32px;
+    width: 160px;
+}
+.area-ofertas, .natureza-area{
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    height: auto;
+}
+.area-ofertas h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.area-ofertas p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.area-ofertas span{
+    font-weight: bold;
+}
+.area-ofertas-img{
+    display: flex;
+    width: 100%;
+    height: 375px;
+    justify-content: space-between;
+}
+.img-principal{
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.img-juntas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.img-juntas figure{
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+.img-juntas img, .img-principal img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.img-juntas figcaption, .img-principal figcaption{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    background: rgb(0 0 0 / 50%);
+    font-size: 17px;
+    color: #fff;
+
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.natureza-area h2{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.natureza-area p{
+    font-size: 16;
+    margin-bottom: 16px;
+}
+.natureza-container-imgs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+    height: auto;
+}
+.natureza-img{
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.natureza-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.natureza-texto {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+.natureza-texto h3{
+    font-size: 16px;
+}
+.natureza-texto p{
+    color: gray;
+    font-size: 15px;
+    margin-top: 15px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #5d15d1;
+    margin-top: 32px;
+}
+.footer-texto{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-informacoes{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    color: #fff;
+}
+.footer-informacoes h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footer-destaque{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.footer-destaque p{
+    font-size: 14px;
+    margin-left: 5px;
+}
+@media (min-width: 320px) and (max-width: 540px) {
+    .area-formulario{
+        max-width: 1024px;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    .formulario-radio{
+        display: flex;
+        flex-direction: column;
+    }
+    .formulario-radio-input{
+        width: 100%;
+    }
+    .formulario-juntos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-right: 10px;
+    }
+    .formulario-juntos input{
+        width: 100%;
+    }
+    .formulario-juntos-texto{
+        width: 100%;
+    }
+    .area-ofertas, .natureza-area{
+        width: 90%;
+    }
+    .area-ofertas-img{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        justify-content: space-between;
+    }
+    .img-juntas{
+        width: 100%;
+    }
+    .img-juntas figure{
+        position: relative;
+        width: 100%;
+        height: 225px;
+        margin: 15px 0 0 0;
+    }
+    .img-principal{
+        width: 100%;
+    }
+    .img-principal figure{
+        position: relative;
+        width: 100%;
+        height: 225px;
+        margin: 15px 0 0 0;
+    }
+    .natureza-container-imgs{
+        flex-direction: column;
+    }
+    .natureza-img{
+        width: 100%;
+    }
+    .footer-texto{
+        text-align: left;
+        width: 60%;
+        flex-direction: column;
+        align-items: start;
+    }
+}
+@media (min-width: 541px) and (max-width: 768px) {
+    .area-formulario{
+        width: 90%;
+    }
+    .area-ofertas-img{
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .area-ofertas, .natureza-area{
+        width: 90%;
+    }
+    .img-juntas{
+        width: 100%;
+    }
+    .img-juntas figure{
+        position: relative;
+        width: 100%;
+        height: 225px;
+        margin: 15px 0 0 0;
+    }
+    .img-principal{
+        width: 100%;
+    }
+    .img-principal figure{  
+            position: relative;
+            width: 100%;
+            height: 225px;
+            margin: 15px 0 0 0;
+    }
+    .natureza-container-imgs{
+        flex-direction: column;
+    }
+    .natureza-img{
+        width: 100%;
+    }
+    .footer-texto{
+        text-align: left;
+        width: 60%;
+        flex-direction: column;
+        align-items: start;
+    }
+}
+@media  (min-width: 768px) and (max-width: 1100px) {
+    .area-formulario{
+        width: 90%;
+    }
+    .area-ofertas , .natureza-area{
+        width: 90%;
+        margin: 15px auto; 
+    }
+    .img-juntas figure{
+        position: relative;
+        width: 50%;
+        height: calc(50% - 10px);
+        margin: 0 6px;
+    }
+    .img-principal{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-right: 10px;
+    }
+    .img-principal figure{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: 0 6px;
+    }
+    .footer-texto{
+        width: 90%;
+        max-width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}

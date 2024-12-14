@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+}
+p{
+    min-width: 300px;
+    max-width: 1333px;
+    font-size: 16px;
+}
+.topo{
+    width: 100%;
+    background-color: #4710c1;
+    padding: 10px 10px 16px 10%;
+    box-sizing: border-box;
+}
+.topo h1{
+    font-size: 22px;
+    display: inline;
+    margin-right: 10px;
+    color: white;
+}
+.topo a{
+    margin: 0 15px 0 15px;
+    text-decoration: none;
+    color: blueviolet;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.capa{
+    width: 100%;
+}
+
+#Sinopse{
+   width: 100%;
+}
+.secao{
+    width: 100%;
+    max-width: 1030px;
+    margin: 30px auto;
+
+}
+.secao h2{
+    font-size: 30px;
+    padding-top: 15px;
+    text-align: center;
+}
+.Disponibilidade img{
+    width: 100%;
+}
+.imagens {
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.imagens img{
+    padding: 0 10px 5px 10px;
+    box-shadow: inset 25px 15px 35px 10px;
+    
+}
+footer{
+    background-color: #4710c1;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: white;
+    
+}

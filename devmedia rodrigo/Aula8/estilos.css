@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-size: 32px;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+p{
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 30px;
+}
+header div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    gap: 1;
+}
+.limita-secao{
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+nav a{
+    font-size: 23px;
+    text-decoration: none;
+    color: #131102;
+    padding: 0 10px;
+}
+section{
+    padding: 60px 20px ;
+}
+.secao-capa div{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 60px 20px ;
+    z-index: 1;
+}
+.pontos-turisticos{
+    background-color: #e9e9e9;
+}
+.secao-capa {
+    position: relative;
+    text-align: center;
+    background-image: url(img/bg-estacao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.secao-capa::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #131102;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.secao-capa h1{
+    font-size: 80px;
+}
+.secao-capa h2{
+    font-size: 35px;
+}
+.secao-capa h1 , .secao-capa h2{
+    color: aliceblue;
+    text-shadow: 1px 1px 5px black;
+}
+.secao-destaque{
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.secao-destaque p::first-letter{
+    font-size: 24px;
+    font-weight: bold;
+}
+.secao-destaque img{
+    width: 100%;
+    height: 100%;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+li::before{
+    content: "";
+    background-image: url(img/seta.png);
+    width: 20px;
+    height: 20px; 
+    margin-right: 6px;
+}
+.galeria{
+    width: 100%;
+}
+.galeria img{
+    width: calc((100% / 3) - 3px);
+    opacity: 0.5;
+}
+.galeria img:hover{
+    opacity: 1;
+    border: 3px solid blueviolet;
+}
+footer{
+    width: 100%;
+    background-color: #F5C002;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}

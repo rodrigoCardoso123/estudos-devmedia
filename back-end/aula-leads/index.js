@@ -12,13 +12,13 @@ app.post('/usuario', async (req,res) =>{
  try {   
     console.log('Dados recebidos:', req.body);
 
-    const { nome, email } = req.body;
+    const { nome, email, idade } = req.body;
 
  const usuariovalido = validarNomeEmail(nome,email)
  console.log('Validação:', usuariovalido);
  
  if(usuariovalido.status){
-    await inserirLeads(nome, email);
+    await inserirLeads(nome, email, idade);
     res.status(204).end();
 } else{
     res.status(400).send({mensagem: usuariovalido.mensagem});
@@ -30,7 +30,7 @@ app.post('/usuario', async (req,res) =>{
 
 });
 
-app.listen(3000, async () => {
+app.listen(3002, async () => {
     console.log('servido iniciado')
 
     

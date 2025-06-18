@@ -1,0 +1,5 @@
+npx create-expo-app MeuProjeto --template expo-template-blank@sdk-50
+
+cd (pasta do projeto) entrar na pasta do projeto.
+
+npx expo start = tem que ser usado na pasta do projeto.
